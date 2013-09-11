@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100EDA3517D5FCC400AE4D3F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100EDA3417D5FCC400AE4D3F /* MobileCoreServices.framework */; };
+		1038006F17D5AF2E0069ECCF /* MyFilesCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1038006E17D5AF2E0069ECCF /* MyFilesCustomCell.m */; };
+		1043489A17D078D600E262E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043489917D078D600E262E4 /* UIKit.framework */; };
+		1043489C17D078D600E262E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043489B17D078D600E262E4 /* Foundation.framework */; };
+		1043489E17D078D600E262E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1043489D17D078D600E262E4 /* CoreGraphics.framework */; };
+		104348A417D078D600E262E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 104348A217D078D600E262E4 /* InfoPlist.strings */; };
+		104348A617D078D600E262E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348A517D078D600E262E4 /* main.m */; };
+		104348AA17D078D600E262E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348A917D078D600E262E4 /* AppDelegate.m */; };
+		104348AC17D078D600E262E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348AB17D078D600E262E4 /* Default.png */; };
+		104348AE17D078D600E262E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348AD17D078D600E262E4 /* Default@2x.png */; };
+		104348B017D078D600E262E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348AF17D078D600E262E4 /* Default-568h@2x.png */; };
+		104348B317D078D600E262E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104348B117D078D600E262E4 /* MainStoryboard.storyboard */; };
+		104348B617D078D600E262E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348B517D078D600E262E4 /* ViewController.m */; };
+		104348BE17D07A1000E262E4 /* login-full-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348BD17D07A1000E262E4 /* login-full-image.png */; };
+		104348C017D07A3500E262E4 /* signin-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348BF17D07A3500E262E4 /* signin-button.png */; };
+		104348CC17D07A4A00E262E4 /* browse-folders.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C117D07A4A00E262E4 /* browse-folders.png */; };
+		104348CD17D07A4A00E262E4 /* download-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C217D07A4A00E262E4 /* download-icon.png */; };
+		104348CE17D07A4A00E262E4 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C317D07A4A00E262E4 /* download.png */; };
+		104348CF17D07A4A00E262E4 /* file-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C417D07A4A00E262E4 /* file-image.png */; };
+		104348D017D07A4A00E262E4 /* folder-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C517D07A4A00E262E4 /* folder-image.png */; };
+		104348D117D07A4A00E262E4 /* home-top-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C617D07A4A00E262E4 /* home-top-image.png */; };
+		104348D217D07A4A00E262E4 /* my-files.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C717D07A4A00E262E4 /* my-files.png */; };
+		104348D317D07A4A00E262E4 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C817D07A4A00E262E4 /* photos.png */; };
+		104348D417D07A4A00E262E4 /* upload-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348C917D07A4A00E262E4 /* upload-icon.png */; };
+		104348D517D07A4A00E262E4 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348CA17D07A4A00E262E4 /* upload.png */; };
+		104348D617D07A4A00E262E4 /* view-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 104348CB17D07A4A00E262E4 /* view-icon.png */; };
+		104348DA17D07E3100E262E4 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104348D917D07E3100E262E4 /* DropboxSDK.framework */; };
+		104348DC17D07F7D00E262E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104348DB17D07F7D00E262E4 /* QuartzCore.framework */; };
+		104348DE17D07F8300E262E4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104348DD17D07F8300E262E4 /* Security.framework */; };
+		104348E417D094DC00E262E4 /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348E317D094DC00E262E4 /* FolderViewController.m */; };
+		104348EA17D0AB1A00E262E4 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348E917D0AB1A00E262E4 /* OptionsViewController.m */; };
+		104348ED17D0B04300E262E4 /* UploadOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348EC17D0B04300E262E4 /* UploadOptionViewController.m */; };
+		104348F317D0B15100E262E4 /* MyFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104348F217D0B15100E262E4 /* MyFilesViewController.m */; };
+		105E7F1617D46D4F00C2128B /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105E7F1517D46D4F00C2128B /* back_button@2x.png */; };
+		105E7F1817D46D5A00C2128B /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 105E7F1717D46D5A00C2128B /* back_button.png */; };
+		105E7F1B17D49CF600C2128B /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 105E7F1A17D49CF600C2128B /* CustomCell.m */; };
+		10F0BE9417D7127E008AF7C7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0BE9117D7127E008AF7C7 /* MBProgressHUD.m */; };
+		10F0BE9517D7127E008AF7C7 /* ProgressHudPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F0BE9317D7127E008AF7C7 /* ProgressHudPresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100EDA3417D5FCC400AE4D3F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1038006D17D5AF2E0069ECCF /* MyFilesCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFilesCustomCell.h; sourceTree = "<group>"; };
+		1038006E17D5AF2E0069ECCF /* MyFilesCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFilesCustomCell.m; sourceTree = "<group>"; };
+		1043489617D078D600E262E4 /* DropboxIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1043489917D078D600E262E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1043489B17D078D600E262E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1043489D17D078D600E262E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		104348A117D078D600E262E4 /* DropboxIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropboxIOS-Info.plist"; sourceTree = "<group>"; };
+		104348A317D078D600E262E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		104348A517D078D600E262E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		104348A717D078D600E262E4 /* DropboxIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropboxIOS-Prefix.pch"; sourceTree = "<group>"; };
+		104348A817D078D600E262E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		104348A917D078D600E262E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		104348AB17D078D600E262E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		104348AD17D078D600E262E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		104348AF17D078D600E262E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		104348B217D078D600E262E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		104348B417D078D600E262E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		104348B517D078D600E262E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		104348BD17D07A1000E262E4 /* login-full-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-full-image.png"; sourceTree = "<group>"; };
+		104348BF17D07A3500E262E4 /* signin-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signin-button.png"; sourceTree = "<group>"; };
+		104348C117D07A4A00E262E4 /* browse-folders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browse-folders.png"; sourceTree = "<group>"; };
+		104348C217D07A4A00E262E4 /* download-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download-icon.png"; sourceTree = "<group>"; };
+		104348C317D07A4A00E262E4 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		104348C417D07A4A00E262E4 /* file-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-image.png"; sourceTree = "<group>"; };
+		104348C517D07A4A00E262E4 /* folder-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-image.png"; sourceTree = "<group>"; };
+		104348C617D07A4A00E262E4 /* home-top-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-top-image.png"; sourceTree = "<group>"; };
+		104348C717D07A4A00E262E4 /* my-files.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-files.png"; sourceTree = "<group>"; };
+		104348C817D07A4A00E262E4 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		104348C917D07A4A00E262E4 /* upload-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload-icon.png"; sourceTree = "<group>"; };
+		104348CA17D07A4A00E262E4 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
+		104348CB17D07A4A00E262E4 /* view-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-icon.png"; sourceTree = "<group>"; };
+		104348D917D07E3100E262E4 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		104348DB17D07F7D00E262E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		104348DD17D07F8300E262E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		104348E217D094DC00E262E4 /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		104348E317D094DC00E262E4 /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
+		104348E817D0AB1A00E262E4 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		104348E917D0AB1A00E262E4 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		104348EB17D0B04300E262E4 /* UploadOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadOptionViewController.h; sourceTree = "<group>"; };
+		104348EC17D0B04300E262E4 /* UploadOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadOptionViewController.m; sourceTree = "<group>"; };
+		104348F117D0B15000E262E4 /* MyFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFilesViewController.h; sourceTree = "<group>"; };
+		104348F217D0B15100E262E4 /* MyFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFilesViewController.m; sourceTree = "<group>"; };
+		105E7F1517D46D4F00C2128B /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button@2x.png"; sourceTree = "<group>"; };
+		105E7F1717D46D5A00C2128B /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		105E7F1917D49CF600C2128B /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		105E7F1A17D49CF600C2128B /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		10F0BE9017D7127E008AF7C7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = DropboxIOS/MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		10F0BE9117D7127E008AF7C7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = DropboxIOS/MBProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		10F0BE9217D7127E008AF7C7 /* ProgressHudPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHudPresenter.h; path = DropboxIOS/ProgressHudPresenter.h; sourceTree = SOURCE_ROOT; };
+		10F0BE9317D7127E008AF7C7 /* ProgressHudPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHudPresenter.m; path = DropboxIOS/ProgressHudPresenter.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1043489317D078D600E262E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100EDA3517D5FCC400AE4D3F /* MobileCoreServices.framework in Frameworks */,
+				104348DE17D07F8300E262E4 /* Security.framework in Frameworks */,
+				104348DC17D07F7D00E262E4 /* QuartzCore.framework in Frameworks */,
+				1043489A17D078D600E262E4 /* UIKit.framework in Frameworks */,
+				1043489C17D078D600E262E4 /* Foundation.framework in Frameworks */,
+				1043489E17D078D600E262E4 /* CoreGraphics.framework in Frameworks */,
+				104348DA17D07E3100E262E4 /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100EDA3E17D621A200AE4D3F /* HudPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				10F0BE9017D7127E008AF7C7 /* MBProgressHUD.h */,
+				10F0BE9117D7127E008AF7C7 /* MBProgressHUD.m */,
+				10F0BE9217D7127E008AF7C7 /* ProgressHudPresenter.h */,
+				10F0BE9317D7127E008AF7C7 /* ProgressHudPresenter.m */,
+			);
+			path = HudPresenter;
+			sourceTree = "<group>";
+		};
+		1043488D17D078D600E262E4 = {
+			isa = PBXGroup;
+			children = (
+				1043489F17D078D600E262E4 /* DropboxIOS */,
+				1043489817D078D600E262E4 /* Frameworks */,
+				1043489717D078D600E262E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1043489717D078D600E262E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1043489617D078D600E262E4 /* DropboxIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1043489817D078D600E262E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				100EDA3417D5FCC400AE4D3F /* MobileCoreServices.framework */,
+				104348DD17D07F8300E262E4 /* Security.framework */,
+				104348DB17D07F7D00E262E4 /* QuartzCore.framework */,
+				104348D917D07E3100E262E4 /* DropboxSDK.framework */,
+				1043489917D078D600E262E4 /* UIKit.framework */,
+				1043489B17D078D600E262E4 /* Foundation.framework */,
+				1043489D17D078D600E262E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1043489F17D078D600E262E4 /* DropboxIOS */ = {
+			isa = PBXGroup;
+			children = (
+				104348A817D078D600E262E4 /* AppDelegate.h */,
+				104348A917D078D600E262E4 /* AppDelegate.m */,
+				104348B117D078D600E262E4 /* MainStoryboard.storyboard */,
+				104348B417D078D600E262E4 /* ViewController.h */,
+				104348B517D078D600E262E4 /* ViewController.m */,
+				104348E217D094DC00E262E4 /* FolderViewController.h */,
+				104348E317D094DC00E262E4 /* FolderViewController.m */,
+				104348E817D0AB1A00E262E4 /* OptionsViewController.h */,
+				104348E917D0AB1A00E262E4 /* OptionsViewController.m */,
+				104348EB17D0B04300E262E4 /* UploadOptionViewController.h */,
+				104348EC17D0B04300E262E4 /* UploadOptionViewController.m */,
+				104348F117D0B15000E262E4 /* MyFilesViewController.h */,
+				104348F217D0B15100E262E4 /* MyFilesViewController.m */,
+				105E7F1917D49CF600C2128B /* CustomCell.h */,
+				105E7F1A17D49CF600C2128B /* CustomCell.m */,
+				1038006D17D5AF2E0069ECCF /* MyFilesCustomCell.h */,
+				1038006E17D5AF2E0069ECCF /* MyFilesCustomCell.m */,
+				100EDA3E17D621A200AE4D3F /* HudPresenter */,
+				104348BC17D079EE00E262E4 /* Images */,
+				104348A017D078D600E262E4 /* Supporting Files */,
+			);
+			path = DropboxIOS;
+			sourceTree = "<group>";
+		};
+		104348A017D078D600E262E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				104348A117D078D600E262E4 /* DropboxIOS-Info.plist */,
+				104348A217D078D600E262E4 /* InfoPlist.strings */,
+				104348A517D078D600E262E4 /* main.m */,
+				104348A717D078D600E262E4 /* DropboxIOS-Prefix.pch */,
+				104348AB17D078D600E262E4 /* Default.png */,
+				104348AD17D078D600E262E4 /* Default@2x.png */,
+				104348AF17D078D600E262E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		104348BC17D079EE00E262E4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				105E7F1517D46D4F00C2128B /* back_button@2x.png */,
+				105E7F1717D46D5A00C2128B /* back_button.png */,
+				104348BD17D07A1000E262E4 /* login-full-image.png */,
+				104348BF17D07A3500E262E4 /* signin-button.png */,
+				104348C117D07A4A00E262E4 /* browse-folders.png */,
+				104348C217D07A4A00E262E4 /* download-icon.png */,
+				104348C317D07A4A00E262E4 /* download.png */,
+				104348C417D07A4A00E262E4 /* file-image.png */,
+				104348C517D07A4A00E262E4 /* folder-image.png */,
+				104348C617D07A4A00E262E4 /* home-top-image.png */,
+				104348C717D07A4A00E262E4 /* my-files.png */,
+				104348C817D07A4A00E262E4 /* photos.png */,
+				104348C917D07A4A00E262E4 /* upload-icon.png */,
+				104348CA17D07A4A00E262E4 /* upload.png */,
+				104348CB17D07A4A00E262E4 /* view-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1043489517D078D600E262E4 /* DropboxIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104348B917D078D600E262E4 /* Build configuration list for PBXNativeTarget "DropboxIOS" */;
+			buildPhases = (
+				1043489217D078D600E262E4 /* Sources */,
+				1043489317D078D600E262E4 /* Frameworks */,
+				1043489417D078D600E262E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropboxIOS;
+			productName = DropboxIOS;
+			productReference = 1043489617D078D600E262E4 /* DropboxIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1043488E17D078D600E262E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = InnnovationM;
+			};
+			buildConfigurationList = 1043489117D078D600E262E4 /* Build configuration list for PBXProject "DropboxIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1043488D17D078D600E262E4;
+			productRefGroup = 1043489717D078D600E262E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1043489517D078D600E262E4 /* DropboxIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1043489417D078D600E262E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104348A417D078D600E262E4 /* InfoPlist.strings in Resources */,
+				104348AC17D078D600E262E4 /* Default.png in Resources */,
+				104348AE17D078D600E262E4 /* Default@2x.png in Resources */,
+				104348B017D078D600E262E4 /* Default-568h@2x.png in Resources */,
+				104348B317D078D600E262E4 /* MainStoryboard.storyboard in Resources */,
+				104348BE17D07A1000E262E4 /* login-full-image.png in Resources */,
+				104348C017D07A3500E262E4 /* signin-button.png in Resources */,
+				104348CC17D07A4A00E262E4 /* browse-folders.png in Resources */,
+				104348CD17D07A4A00E262E4 /* download-icon.png in Resources */,
+				104348CE17D07A4A00E262E4 /* download.png in Resources */,
+				104348CF17D07A4A00E262E4 /* file-image.png in Resources */,
+				104348D017D07A4A00E262E4 /* folder-image.png in Resources */,
+				104348D117D07A4A00E262E4 /* home-top-image.png in Resources */,
+				104348D217D07A4A00E262E4 /* my-files.png in Resources */,
+				104348D317D07A4A00E262E4 /* photos.png in Resources */,
+				104348D417D07A4A00E262E4 /* upload-icon.png in Resources */,
+				104348D517D07A4A00E262E4 /* upload.png in Resources */,
+				104348D617D07A4A00E262E4 /* view-icon.png in Resources */,
+				105E7F1617D46D4F00C2128B /* back_button@2x.png in Resources */,
+				105E7F1817D46D5A00C2128B /* back_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1043489217D078D600E262E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104348A617D078D600E262E4 /* main.m in Sources */,
+				104348AA17D078D600E262E4 /* AppDelegate.m in Sources */,
+				104348B617D078D600E262E4 /* ViewController.m in Sources */,
+				104348E417D094DC00E262E4 /* FolderViewController.m in Sources */,
+				104348EA17D0AB1A00E262E4 /* OptionsViewController.m in Sources */,
+				104348ED17D0B04300E262E4 /* UploadOptionViewController.m in Sources */,
+				104348F317D0B15100E262E4 /* MyFilesViewController.m in Sources */,
+				105E7F1B17D49CF600C2128B /* CustomCell.m in Sources */,
+				1038006F17D5AF2E0069ECCF /* MyFilesCustomCell.m in Sources */,
+				10F0BE9417D7127E008AF7C7 /* MBProgressHUD.m in Sources */,
+				10F0BE9517D7127E008AF7C7 /* ProgressHudPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		104348A217D078D600E262E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104348A317D078D600E262E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		104348B117D078D600E262E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104348B217D078D600E262E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		104348B717D078D600E262E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		104348B817D078D600E262E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104348BA17D078D600E262E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropboxIOS/DropboxIOS-Prefix.pch";
+				INFOPLIST_FILE = "DropboxIOS/DropboxIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		104348BB17D078D600E262E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropboxIOS/DropboxIOS-Prefix.pch";
+				INFOPLIST_FILE = "DropboxIOS/DropboxIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1043489117D078D600E262E4 /* Build configuration list for PBXProject "DropboxIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104348B717D078D600E262E4 /* Debug */,
+				104348B817D078D600E262E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104348B917D078D600E262E4 /* Build configuration list for PBXNativeTarget "DropboxIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104348BA17D078D600E262E4 /* Debug */,
+				104348BB17D078D600E262E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1043488E17D078D600E262E4 /* Project object */;
+}
